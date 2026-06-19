@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akilesh Gowda K S | Portfolio Core</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght=400;600&family=Plus+Jakarta+Sans:wght=300;400;500;700;800&display=swap');
+        .font-mono { font-family: 'Fira Code', monospace; }
+        .font-sans { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .terminal-glow { box-shadow: 0 0 30px rgba(34, 197, 94, 0.15); }
+        .text-glow { text-shadow: 0 0 8px rgba(34, 197, 94, 0.4); }
+        .terminal-input { outline: none; background: transparent; }
+    </style>
+</head>
+<body class="bg-[#030712] text-slate-100 font-sans antialiased selection:bg-green-500 selection:text-black">
+
+    <div class="fixed inset-0 bg-[linear-gradient(to_right,#1f293710_1px,transparent_1px),linear-gradient(to_bottom,#1f293710_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none z-0"></div>
+
+    <nav class="fixed top-0 inset-x-0 bg-[#030712]/80 backdrop-blur-md border-b border-slate-800/80 z-40">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-mono text-green-400 font-bold text-base hover:text-green-300 transition">&lt;AKHI_GOWDA/&gt;</a>
+            <div class="hidden md:flex space-x-8 text-xs font-mono uppercase tracking-widest text-slate-400">
+                <a href="#about" class="hover:text-green-400 transition">01. // Terminal</a>
+                <a href="#skills" class="hover:text-green-400 transition">02. // Matrix</a>
+                <a href="#projects" class="hover:text-green-400 transition">03. // Deployments</a>
+                <a href="#credentials" class="hover:text-green-400 transition">04. // Certs</a>
+                <a href="#guestbook" class="hover:text-green-400 transition">05. // Guestbook</a>
+            </div>
+            <a href="mailto:akhigowda2005@gmail.com" class="font-mono text-xs text-green-400 border border-green-500/30 px-4 py-2 rounded bg-green-500/5 hover:bg-green-500/20 transition">ping_client()</a>
+        </div>
+    </nav>
+
+    <section id="about" class="relative min-h-screen flex flex-col justify-center items-center pt-24 px-6 max-w-5xl mx-auto z-10">
+        <div class="w-full bg-[#0b0f19] border border-slate-800 rounded-xl overflow-hidden terminal-glow">
+            <div class="bg-[#070a12] px-4 py-3 border-b border-slate-800/80 flex items-center justify-between">
+                <div class="flex space-x-2">
+                    <span class="w-3 h-3 rounded-full bg-red-500/80 block"></span>
+                    <span class="w-3 h-3 rounded-full bg-yellow-500/80 block"></span>
+                    <span class="w-3 h-3 rounded-full bg-green-500/80 block"></span>
+                </div>
+                <span class="text-xs font-mono text-slate-500 tracking-tight">interactive_shell.sh</span>
+                <span class="text-xs font-mono text-green-500/40">ONLINE</span>
+            </div>
+            
+            <div class="p-6 font-mono text-xs md:text-sm space-y-3 min-h-[380px] flex flex-col justify-between">
+                <div id="terminal-history" class="space-y-3 overflow-y-auto max-h-[340px] text-slate-300">
+                    <p class="text-slate-500">// Core System Loaded. Type <span class="text-green-400 font-bold">'help'</span> to view available system routines.</p>
+                    <p><span class="text-purple-400">guest@akilesh_core:~$</span> cat identity.json</p>
+                    
+                    <div class="border-l-2 border-green-500/40 pl-4 my-4 flex flex-col md:flex-row items-center gap-6">
+                        <div class="relative shrink-0 w-28 h-28 rounded-xl overflow-hidden border border-green-500/30 bg-slate-900 flex items-center justify-center group">
+                            <img src="my_pic.png" alt="Akilesh Gowda K S" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 border border-green-400/20 rounded-xl pointer-events-none shadow-inner"></div>
+                        </div>
+
+                        <div>
+                            <h1 class="text-2xl md:text-4xl font-sans font-extrabold text-white text-glow mb-1">AKILESH GOWDA K S</h1>
+                            <p class="font-sans text-slate-400 text-sm max-w-2xl">B.Tech Computer Science Engineering from PES University with extensive knowledge and experience in programming, machine learning, artificial intelligence, and system development.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2 pt-3 border-t border-slate-800/60">
+                    <span class="text-purple-400 font-bold shrink-0">guest@akilesh_core:~$</span>
+                    <input type="text" id="terminal-input" class="flex-grow terminal-input text-green-400 caret-green-400 font-mono" placeholder="..." autofocus autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="relative py-20 max-w-6xl mx-auto px-6 z-10">
+        <h2 class="text-xs font-mono text-green-400 uppercase tracking-widest mb-2">// 02. Engine Specifications</h2>
+        <h3 class="text-2xl font-extrabold text-white mb-10 tracking-tight">Technical Competency Fields</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-[#0b0f19]/60 backdrop-blur-sm p-6 rounded-xl border border-slate-800/80">
+                <h4 class="text-sm font-bold font-mono text-green-400 mb-4">&gt; languages_and_web</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-mono">
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">Python</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">C</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">JavaScript</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">MySQL</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">Flask</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">HTML/CSS</span>
+                </div>
+            </div>
+            <div class="bg-[#0b0f19]/60 backdrop-blur-sm p-6 rounded-xl border border-slate-800/80">
+                <h4 class="text-sm font-bold font-mono text-purple-400 mb-4">&gt; ai_and_deep_learning</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-mono">
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">Machine Learning</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">Deep Learning</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">GenAI & LLMs</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">RAG Architectures</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">Computer Vision (OpenCV)</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-purple-300">CNN & LSTM</span>
+                </div>
+            </div>
+            <div class="bg-[#0b0f19]/60 backdrop-blur-sm p-6 rounded-xl border border-slate-800/80">
+                <h4 class="text-sm font-bold font-mono text-blue-400 mb-4">&gt; core_cs_structures</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-mono">
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-blue-300">DSA</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-blue-300">DBMS</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-blue-300">Operating Systems</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-blue-300">Computer Networks</span>
+                    <span class="bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-blue-300">Software Engineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="relative py-20 max-w-6xl mx-auto px-6 z-10">
+        <h2 class="text-xs font-mono text-green-400 uppercase tracking-widest mb-2">// 03. Applied Engineering</h2>
+        <h3 class="text-2xl font-extrabold text-white mb-10 tracking-tight">Active Deployments</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-[#0b0f19]/80 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between mb-4">
+                        <span class="text-[10px] font-mono tracking-wider px-2 py-0.5 bg-amber-500/10 text-amber-400 rounded border border-amber-500/20 uppercase">Capstone // Ongoing</span>
+                        <a href="https://github.com/Akhigowda" target="_blank" class="text-xs text-green-400 hover:text-green-300 font-mono flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">AI-Powered Women's Safety Wearable</h4>
+                    <p class="text-slate-400 text-xs md:text-sm leading-relaxed mb-4"> Designing an intelligent wearable glove to detect emergency situations using motion sensors. Integrating hardware with AI alert mechanisms for real-time safety monitoring.</p>
+                </div>
+                <div class="flex flex-wrap gap-1.5 text-[10px] font-mono text-slate-500 border-t border-slate-800/60 pt-4">
+                    <span>AI</span><span>Embedded Systems</span><span>Sensors</span><span>PCB Design</span>
+                </div>
+            </div>
+
+            <div class="bg-[#0b0f19]/80 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between mb-4">
+                        <span class="text-[10px] font-mono tracking-wider px-2 py-0.5 bg-purple-500/10 text-purple-400 rounded border border-purple-500/20 uppercase">GenAI Stack</span>
+                        <a href="https://github.com/Akhigowda/GenAI-based-Exam-Evaluator-and-feedback" target="_blank" class="text-xs text-green-400 hover:text-green-300 font-mono flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">AI-Based Exam Answer Evaluator & Coach</h4>
+                    <p class="text-slate-400 text-xs md:text-sm leading-relaxed mb-4"> Developing an AI system to automatically evaluate descriptive exam answers using NLP techniques, generating personalized feedback and improvement suggestions for students.</p>
+                </div>
+                <div class="flex flex-wrap gap-1.5 text-[10px] font-mono text-slate-500 border-t border-slate-800/60 pt-4">
+                    <span>Generative AI</span><span>RAG</span><span>LLM</span><span>NLP</span><span>Python</span>
+                </div>
+            </div>
+
+            <div class="bg-[#0b0f19]/80 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between mb-4">
+                        <span class="text-[10px] font-mono tracking-wider px-2 py-0.5 bg-blue-500/10 text-blue-400 rounded border border-blue-500/20 uppercase">Deep Learning</span>
+                        <a href="https://github.com/Akhigowda" target="_blank" class="text-xs text-green-400 hover:text-green-300 font-mono flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Deep Learning-Based Cognitive Fatigue Detection</h4>
+                    <p class="text-slate-400 text-xs md:text-sm leading-relaxed mb-4"> Developing a system to detect cognitive fatigue and focus drift during study sessions using computer vision. Training models to analyze facial expressions and eye movements.</p>
+                </div>
+                <div class="flex flex-wrap gap-1.5 text-[10px] font-mono text-slate-500 border-t border-slate-800/60 pt-4">
+                    <span>Deep Learning</span><span>Computer Vision</span><span>OpenCV</span><span>CNN</span><span>LSTM</span>
+                </div>
+            </div>
+
+            <div class="bg-[#0b0f19]/80 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between mb-4">
+                        <span class="text-[10px] font-mono tracking-wider px-2 py-0.5 bg-green-500/10 text-green-400 rounded border border-green-500/20 uppercase">Machine Learning</span>
+                        <a href="https://github.com/Akhigowda/stack-trace-clustering" target="_blank" class="text-xs text-green-400 hover:text-green-300 font-mono flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">Stack Trace Clustering System</h4>
+                    <p class="text-slate-400 text-xs md:text-sm leading-relaxed mb-4"> Built a machine learning system to cluster similar stack traces from software errors, identifying recurring error patterns to dramatically reduce debugging effort.</p>
+                </div>
+                <div class="flex flex-wrap gap-1.5 text-[10px] font-mono text-slate-500 border-t border-slate-800/60 pt-4">
+                    <span>Machine Learning</span><span>Python</span><span>Clustering</span><span>Debugging</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 bg-[#0b0f19]/40 border border-slate-800/60 rounded-xl p-6">
+            <h4 class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-4">&gt; secondary_projects_found</h4>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-mono">
+                <a href="https://www.linkedin.com/in/akhigowda/details/projects/" target="_blank" class="p-4 bg-slate-900/50 border border-slate-800 rounded-lg hover:border-green-500/30 transition flex items-center justify-between">
+                    <div>
+                        <span class="text-white block font-bold">Automatic Medicine Dispenser</span>
+                        <span class="text-[10px] text-slate-500"> Embedded / Hardware System</span>
+                    </div>
+                    <i class="fab fa-github text-slate-500"></i>
+                </a>
+                <a href="https://github.com/pestechnology/PESU_EC_CSE_A_P49_Charity_Event_Fundraising_Tracker_A4-Developers" target="_blank" class="p-4 bg-slate-900/50 border border-slate-800 rounded-lg hover:border-green-500/30 transition flex items-center justify-between">
+                    <div>
+                        <span class="text-white block font-bold">Fundraising Tracker System</span>
+                        <span class="text-[10px] text-slate-500"> Software Infrastructure</span>
+                    </div>
+                    <i class="fab fa-github text-slate-500"></i>
+                </a>
+                <a href="https://github.com/Akhigowda/Hotel_Management" target="_blank" class="p-4 bg-slate-900/50 border border-slate-800 rounded-lg hover:border-green-500/30 transition flex items-center justify-between">
+                    <div>
+                        <span class="text-white block font-bold">Hotel Management System</span>
+                        <span class="text-[10px] text-slate-500"> Database System Architecture</span>
+                    </div>
+                    <i class="fab fa-github text-slate-500"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="credentials" class="relative py-20 max-w-6xl mx-auto px-6 z-10">
+        <h2 class="text-xs font-mono text-green-400 uppercase tracking-widest mb-2">// 04. Verified Hashes</h2>
+        <h3 class="text-2xl font-extrabold text-white mb-10 tracking-tight">Certifications & Linguistics</h3>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-3 font-mono text-xs">
+                <div class="p-4 bg-[#0b0f19]/60 border border-slate-800 flex items-center justify-between rounded-lg">
+                    <span class="text-white"><i class="fa-solid fa-certificate text-green-500 mr-3"></i>Python Programming Certificate</span>
+                    <span class="text-slate-500"> GeeksforGeeks</span>
+                </div>
+                <div class="p-4 bg-[#0b0f19]/60 border border-slate-800 flex items-center justify-between rounded-lg">
+                    <span class="text-white"><i class="fa-solid fa-certificate text-green-500 mr-3"></i>MS Excel Certificate</span>
+                    <span class="text-slate-500"> Coursera</span>
+                </div>
+                <div class="p-4 bg-[#0b0f19]/60 border border-slate-800 flex items-center justify-between rounded-lg">
+                    <span class="text-white"><i class="fa-solid fa-certificate text-green-500 mr-3"></i>Soft Skills Certificate</span>
+                    <span class="text-slate-500"> TCS iON</span>
+                </div>
+                <div class="p-4 bg-[#0b0f19]/60 border border-slate-800 flex items-center justify-between rounded-lg">
+                    <span class="text-white"><i class="fa-solid fa-certificate text-green-500 mr-3"></i>CREST CTF Certificate</span>
+                    <span class="text-slate-500"> Pimpri Chinchwad University</span>
+                </div>
+                <div class="p-4 bg-[#0b0f19]/60 border border-slate-800 flex items-center justify-between rounded-lg">
+                    <span class="text-white"><i class="fa-solid fa-certificate text-green-500 mr-3"></i>AI for Educator Certificate</span>
+                    <span class="text-slate-500"> Skill India</span>
+                </div>
+            </div>
+
+            <div class="bg-[#0b0f19]/80 border border-slate-800 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-language text-green-400"></i> Language Matrix
+                    </h4>
+                    <div class="space-y-3 text-xs font-mono">
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1"><span>Kannada</span><span class="text-green-400">Native</span></div>
+                            <div class="h-1.5 w-full bg-slate-900 rounded-full"><div class="h-full bg-green-500 rounded-full" style="width: 100%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1"><span>English</span><span class="text-green-400">Fluent</span></div>
+                            <div class="h-1.5 w-full bg-slate-900 rounded-full"><div class="h-full bg-green-500 rounded-full" style="width: 90%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1"><span>Telugu</span><span class="text-slate-500">Basic</span></div>
+                            <div class="h-1.5 w-full bg-slate-900 rounded-full"><div class="h-full bg-slate-700 rounded-full" style="width: 35%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1"><span>Hindi</span><span class="text-slate-500">Basic</span></div>
+                            <div class="h-1.5 w-full bg-slate-900 rounded-full"><div class="h-full bg-slate-700 rounded-full" style="width: 30%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guestbook" class="relative py-20 max-w-6xl mx-auto px-6 z-10">
+        <h2 class="text-xs font-mono text-green-400 uppercase tracking-widest mb-2">// 05. Recruiter Log Buffer</h2>
+        <h3 class="text-2xl font-extrabold text-white mb-10 tracking-tight">Interactive Guestbook Feed</h3>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="bg-[#0b0f19]/80 border border-slate-800 p-6 rounded-xl h-fit">
+                <h4 class="text-sm font-bold text-white mb-4 font-mono text-green-400">&gt; establish_feedback_node()</h4>
+                <form id="comment-form" onsubmit="submitComment(event)" class="space-y-4 font-mono text-xs">
+                    <div>
+                        <label class="block text-slate-400 mb-1">Identity/Company:</label>
+                        <input type="text" id="comment-name" required class="w-full bg-[#030712] border border-slate-800 rounded p-2.5 text-slate-200 outline-none focus:border-green-500/50 transition" placeholder="e.g. Senior Tech Recruiter">
+                    </div>
+                    <div>
+                        <label class="block text-slate-400 mb-1">Transmission Message:</label>
+                        <textarea id="comment-text" required rows="4" class="w-full bg-[#030712] border border-slate-800 rounded p-2.5 text-slate-200 outline-none focus:border-green-500/50 transition resize-none" placeholder="Leave a review or note..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-green-500 hover:bg-green-400 text-black py-2.5 rounded font-bold transition">push_log_payload()</button>
+                </form>
+            </div>
+
+            <div class="lg:col-span-2 bg-[#0b0f19]/40 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4 font-mono text-purple-400">&gt; stdout_message_pipeline</h4>
+                    <div id="comments-container" class="space-y-4 max-h-[340px] overflow-y-auto pr-2">
+                        <div class="p-4 bg-[#0b0f19]/90 border border-slate-800 rounded-lg font-mono text-xs">
+                            <div class="flex justify-between items-center mb-1 text-[11px]">
+                                <span class="text-green-400 font-bold">&lt; Engineering Lead / PES Univ &gt;</span>
+                                <span class="text-slate-500">SYSTEM_INIT</span>
+                            </div>
+                            <p class="text-slate-300 font-sans mt-1">Excellent grasp of AI systems architecture and edge hardware interfaces. Looking forward to the Capstone results!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed bottom-6 right-6 z-50 font-mono">
+        <button id="ai-widget-toggle" onclick="toggleChat()" class="bg-green-500 hover:bg-green-400 text-black w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition duration-200">
+            <i class="fa-solid fa-robot text-lg"></i>
+        </button>
+
+        <div id="ai-chat-window" class="hidden absolute bottom-16 right-0 w-80 bg-[#0b0f19] border border-slate-800 rounded-xl overflow-hidden terminal-glow flex flex-col h-96">
+            <div class="bg-[#070a12] p-3 border-b border-slate-800 flex justify-between items-center text-xs">
+                <span class="text-green-400"><i class="fa-solid fa-circle-nodes mr-1.5 animate-pulse"></i> akilesh_ai_agent</span>
+                <button onclick="toggleChat()" class="text-slate-500 hover:text-white">&times;</button>
+            </div>
+            <div id="ai-msg-stream" class="p-4 flex-grow overflow-y-auto space-y-3 text-[11px] text-slate-300">
+                <p class="bg-slate-900 p-2 rounded-lg border border-slate-800/60 text-slate-400">Hello, I am Akilesh's automated core agent dashboard. Ask me anything about his technical timeline.</p>
+            </div>
+            <div class="p-2 bg-[#070a12] border-t border-slate-800 flex flex-wrap gap-1 text-[9px]">
+                <button onclick="triggerAgentReply('projects')" class="bg-slate-900 border border-slate-700 px-2 py-1 rounded text-slate-300 hover:border-green-500 transition">List Top Projects</button>
+                <button onclick="triggerAgentReply('timeline')" class="bg-slate-900 border border-slate-700 px-2 py-1 rounded text-slate-300 hover:border-green-500 transition">Expected Graduation</button>
+                <button onclick="triggerAgentReply('contact')" class="bg-slate-900 border border-slate-700 px-2 py-1 rounded text-slate-300 hover:border-green-500 transition">Get Contact Details</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleChat() {
+            document.getElementById('ai-chat-window').classList.toggle('hidden');
+        }
+
+        // Live Comment Section Processor
+        function submitComment(event) {
+            event.preventDefault();
+            const nameInput = document.getElementById('comment-name');
+            const textInput = document.getElementById('comment-text');
+            const container = document.getElementById('comments-container');
+
+            const timestamp = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+            // Construct new message item matching the terminal theme
+            const newComment = `
+                <div class="p-4 bg-[#0b0f19]/90 border border-slate-800 rounded-lg font-mono text-xs animate-fade-in">
+                    <div class="flex justify-between items-center mb-1 text-[11px]">
+                        <span class="text-purple-400 font-bold">&lt; ${escapeHTML(nameInput.value)} &gt;</span>
+                        <span class="text-slate-500">${timestamp}</span>
+                    </div>
+                    <p class="text-slate-300 font-sans mt-1">${escapeHTML(textInput.value)}</p>
+                </div>
+            `;
+
+            container.innerHTML = newComment + container.innerHTML;
+            
+            // Clear inputs
+            nameInput.value = '';
+            textInput.value = '';
+        }
+
+        function escapeHTML(str) {
+            return str.replace(/[&<>'"]/g, 
+                tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+            );
+        }
+
+        function triggerAgentReply(intent) {
+            const stream = document.getElementById('ai-msg-stream');
+            let userMsg = "";
+            let agentReply = "";
+
+            if(intent === 'projects') {
+                userMsg = "What are his focus projects?";
+                agentReply = "Akilesh is building an AI Women's Safety Wearable, an LLM RAG Exam Evaluator, Cognitive Fatigue Detection (CNN/LSTM), and a Stack Trace Clustering System. He also built an Automatic Medicine Dispenser!";
+            } else if (intent === 'timeline') {
+                userMsg = "When does he graduate?";
+                agentReply = "He is completing his B.Tech in Computer Science Engineering at PES University, expected to wrap up in March 2027.";
+            } else if (intent === 'contact') {
+                userMsg = "How can I reach Akilesh?";
+                agentReply = "You can connect via email at akhigowda2005@gmail.com or call directly at +91 8310642214. His location base is Bengaluru, India.";
+            }
+
+            stream.innerHTML += `<p class="text-right text-green-400 font-semibold">[User]: ${userMsg}</p>`;
+            stream.innerHTML += `<p class="bg-slate-900 p-2 rounded border border-slate-800 text-slate-300">[Agent]: ${agentReply}</p>`;
+            stream.scrollTop = stream.scrollHeight;
+        }
+
+        const termInput = document.getElementById('terminal-input');
+        const termHistory = document.getElementById('terminal-history');
+
+        termInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                const cmd = termInput.value.trim().toLowerCase();
+                termInput.value = '';
+                
+                if(!cmd) return;
+
+                let response = "";
+
+                switch(cmd) {
+                    case 'help':
+                        response = "Available system calls:<br>  <span class='text-purple-400'>skills</span>    - Output complete technical asset list<br>  <span class='text-purple-400'>projects</span>  - Review core active deployments<br>  <span class='text-purple-400'>sudo hire</span> - Request high-priority contact execution<br>  <span class='text-purple-400'>clear</span>    - Wipe active terminal terminal log buffers";
+                        break;
+                    case 'skills':
+                        response = "<span class='text-white font-bold'>Languages:</span> Python, C, JS, MySQL, Flask<br><span class='text-purple-400 font-bold'>AI Core:</span> Deep Learning, GenAI, RAG, Computer Vision (CNN/LSTM)";
+                        break;
+                    case 'projects':
+                        response = "1. AI Safety Wearable<br>2. RAG Answer Grading Stack<br>3. Cognitive Fatigue Tracker<br>4. Stack Trace Clustering<br>5. Medicine Dispenser";
+                        break;
+                    case 'sudo hire':
+                        response = "<span class='text-green-400 font-bold'>✔ ACCESS GRANTED.</span> Direct dispatch routine matching initiated. Email: akhigowda2005@gmail.com Phone: +91 8310642214";
+                        break;
+                    case 'clear':
+                        termHistory.innerHTML = "";
+                        return;
+                    default:
+                        response = `command not found: "${cmd}". Type 'help' to review valid runtime calls.`;
+                }
+
+                termHistory.innerHTML += `<p class="pt-2"><span class="text-purple-400">guest@akilesh_core:~$</span> ${cmd}</p>`;
+                termHistory.innerHTML += `<p class="text-slate-400 pl-2 font-sans leading-relaxed">${response}</p>`;
+                termHistory.scrollTop = termHistory.scrollHeight;
+            }
+        });
+    </script>
+</body>
+</html>
